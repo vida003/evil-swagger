@@ -51,7 +51,9 @@
 "description":"",
 "operationId":"uploadFile",
 "consumes":[
-"multipart/form-data",
+"application/json",
+"application/xml",
+"\"><script>alert(1)</script>"
 ],
 "produces":[
 "application/json",
