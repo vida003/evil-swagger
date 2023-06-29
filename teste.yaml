@@ -1,4 +1,52 @@
-Definitions   
-    Type: string   
-    Description: prints xss   
-    Default: <script>console.log(‘000000000000000000dad0000000000000000000');</script>
+info:
+  title: test
+  version: 1.0.0
+consumes:
+  - application/json
+produces:
+  - application/json
+swagger: '2.0'
+securityDefinitions:
+  keystone:
+    description: OpenStack Keystone Authentication
+    type: apiKey
+    in: header
+    name: x-auth-token
+
+security: []
+
+paths:
+  /api/v1/clusters/:
+    get:
+      operationId: ListClusters
+      summary: List available clusters
+      responses:
+        200:
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Cluster'
+      security:
+        - keystone: []
+    post:
+      operationId: CreateCluster
+      summary: Create a cluster
+      responses:
+        200:
+          description: OK
+          schema:
+            $ref: '#/definitions/Cluster'
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/Cluster'
+      security:
+        - keystone: []
+
+definitions:
+    type: string
+    description: print xss
+    Default: Default: <script>console.log(‘000000000000000000dad0000000000000000000');</script>
