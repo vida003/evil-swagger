@@ -1,8 +1,8 @@
 {
-  "url":"https://raw.githubusercontent.com/vida003/evil-swagger/main/xss.json",
+  "url":"https://raw.githubusercontent.com/vida003/evil-swagger/main/xss.yaml",
   "urls":[
   {
-    "url":"https://raw.githubusercontent.com/vida003/evil-swagger/main/xss.json",
+    "url":"https://raw.githubusercontent.com/vida003/evil-swagger/main/xss.yaml",
     "name":"Foo",
   }
   ]
