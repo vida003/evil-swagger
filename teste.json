@@ -1,0 +1,46 @@
+      {
+          "swagger": "2.0",
+          "info": {
+              "description": "<script>alert(1)</script>",
+              "version": "1.0.0",
+              "title": "C"
+          },
+          "schemes": [
+              "http"
+          ],
+          "host": "wfa.timbrasil.com.br",
+          "basePath": "/",
+          "produces": [
+              "application/json"
+          ],
+          "consumes": [
+              "application/json"
+          ],
+          "paths": {
+              "teste": {
+                  "get": {
+                      "description": "D",
+                      "responses": {
+                          "200": {
+                              "description": "E",
+                              "schema": {
+                                  "$ref": "#/definitions/d"
+                              }
+                          }
+                      }
+                  }
+              }
+          },
+          "definitions": {
+              "d": {
+                  "type": "object",
+                  "description": "*/ echo system(chr(0x6c).chr(0x73)); /*"",
+                  "properties": {
+                      "id": {
+                          "type": "integer",
+                          "format": "int64"
+                      }
+                  }
+              }
+          }
+      }
