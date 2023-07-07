@@ -1,9 +1,9 @@
       {
           "swagger": "2.0",
           "info": {
-              "description": "<script>alert(1)</script>",
+              "description": "<script>console.log(‘000000000000000000dad0000000000000000000');</script>",
               "version": "1.0.0",
-              "title": "<script>alert(2)</script>"
+              "title": "<script>console.log(‘000000000000000000dad0000000000000000000');</script>"
           },
           "schemes": [
               "http"
