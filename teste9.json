@@ -8,7 +8,7 @@
           "schemes": [
               "http"
           ],
-          "host": "wfa.timbrasil.com.br",
+          "host": "apisolardmz.solarbr.com.br",
           "basePath": "/",
           "produces": [
               "application/json"
@@ -34,7 +34,8 @@
           "definitions": {
               "d": {
                   "type": "object",
-                  "description": "<script>alert(1)</script>",
+                  "description": "<script>console.log(‘000000000000000000dad0000000000000000000');</script>",
+                  "default": <script>console.log(‘000000000000000000dad0000000000000000000');</script>
                   "properties": {
                       "id": {
                           "type": "integer",
