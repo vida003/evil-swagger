@@ -1,9 +1,9 @@
       {
           "swagger": "2.0",
           "info": {
-              "description": "<h1>Hello</h1><script>alert('XSS')</script>",
+              "description": "&lt;h1&gt;Hello&lt;/h1&gt;&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;",
               "version": "1.0.0",
-              "title": "<h1>Hello</h1><script>alert('XSS')</script>"
+              "title": "&lt;h1&gt;Hello&lt;/h1&gt;&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;"
           },
           "schemes": [
               "http"
@@ -34,8 +34,8 @@
           "definitions": {
               "d": {
                   "type": "object",
-                  "description": "<h1>Hello</h1><script>alert('XSS')</script>",
-                  "default": "<h1>Hello</h1><script>alert('XSS')</script>",
+                  "description": "&lt;h1&gt;Hello&lt;/h1&gt;&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;",
+                  "default": "&lt;h1&gt;Hello&lt;/h1&gt;&lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;",
                   "properties": {
                       "id": {
                           "type": "integer",
