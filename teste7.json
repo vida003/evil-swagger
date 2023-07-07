@@ -3,7 +3,7 @@
           "info": {
               "description": "<script>alert(1)</script>",
               "version": "1.0.0",
-              "title": "teste"
+              "title": "<script>alert(2)</script>"
           },
           "schemes": [
               "http"
