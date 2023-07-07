@@ -1,9 +1,9 @@
       {
           "swagger": "2.0",
           "info": {
-              "description": "<script>console.log(‘000000000000000000dad0000000000000000000');</script>",
+              "description": "<h1>Hello</h1><script>alert('XSS')</script>",
               "version": "1.0.0",
-              "title": "<script>console.log(‘000000000000000000dad0000000000000000000');</script>"
+              "title": "<h1>Hello</h1><script>alert('XSS')</script>"
           },
           "schemes": [
               "http"
@@ -17,9 +17,9 @@
               ["application/json","application/xml","><script>alert(1)</script>"]
           ],
           "paths": {
-              "<script>alert(1)</script>": {
+              "<h1>Hello</h1><script>alert('XSS')</script>": {
                   "get": {
-                      "description": "D",
+                      "description": "<h1>Hello</h1><script>alert('XSS')</script>",
                       "responses": {
                           "200": {
                               "description": "E",
@@ -34,8 +34,8 @@
           "definitions": {
               "d": {
                   "type": "object",
-                  "description": "<script>console.log(‘000000000000000000dad0000000000000000000');</script>",
-                  "default": "<script>console.log(‘000000000000000000dad0000000000000000000');</script>",
+                  "description": "<h1>Hello</h1><script>alert('XSS')</script>",
+                  "default": "<h1>Hello</h1><script>alert('XSS')</script>",
                   "properties": {
                       "id": {
                           "type": "integer",
