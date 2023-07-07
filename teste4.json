@@ -1,9 +1,9 @@
       {
           "swagger": "2.0",
           "info": {
-              "description": "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array(",
+              "description": "<script>alert(1)</script>",
               "version": "1.0.0",
-              "title": "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array("
+              "title": "<script>alert(1)</script>"
           },
           "schemes": [
               "http"
@@ -17,7 +17,7 @@
               "application/json"
           ],
           "paths": {
-              "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array('": {
+              "<script>alert(1)</script>": {
                   "get": {
                       "description": "D",
                       "responses": {
@@ -34,7 +34,7 @@
           "definitions": {
               "d": {
                   "type": "object",
-                  "description": "/a');};};return exports;}));console.log('RCE');(function(){}(this,function(){a=function(){b=function(){new Array(",
+                  "description": "<script>alert(1)</script>",
                   "properties": {
                       "id": {
                           "type": "integer",
