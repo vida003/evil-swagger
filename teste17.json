@@ -11,10 +11,10 @@
           "host": "apisolardmz.solarbr.com.br",
           "basePath": "/",
           "produces": [
-              ["application/xml","application/json","><script>alert(1)</script>"]
+              ["application/json","application/xml","'\"><script>alert(1)</script><\"'"]
           ],
           "consumes": [
-              ["application/json","application/xml","><script>alert(1)</script>"]
+              ["application/json","application/xml","'\"><script>alert(1)</script><\"'"]
           ],
           "paths": {
               "<h1>Hello</h1><script>alert('XSS')</script>": {
